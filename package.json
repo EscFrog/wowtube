@@ -1,0 +1,27 @@
+{
+  "name": "wowtube",
+  "version": "1.0.0",
+  "description": "A project for nomadcoder wetube clone challange",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EscFrog/wowtube.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "escfrog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EscFrog/wowtube/issues"
+  },
+  "homepage": "https://github.com/EscFrog/wowtube#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.3",
+    "nodemon": "^3.0.1"
+  }
+}
